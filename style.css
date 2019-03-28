@@ -1,0 +1,53 @@
+/*CSS style sheet for Prac 2 */
+/* Version 2 - widths changed to % from px - webpage did not fit on smaller devices*/
+/*Tweaked the look of the form very slightly*/
+
+.title {
+    background: navy;
+    font-family: courier;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    width: 45%;
+    border: 5px solid royalblue;
+}
+
+form {
+    background: royalblue;
+    color: white;
+    margin: 0 auto;
+    width: 40%;
+    padding: 25px;
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
+input {
+    font: arial;
+    width: 35%;
+    margin: 10px;
+    border: 2px solid mediumblue;
+}
+
+input:hover {
+    border: 3px solid white;
+}
+
+label {
+    display: inline-block;
+    width: 30%;
+    text-align: right;
+}
+
+button {
+    display: inline-block;
+    margin: 5px;
+    width: 27%;
+    padding: 5px;
+    background: mediumblue;
+    color: white;
+}
+
+.button {
+    padding-left: 40%;
+}
